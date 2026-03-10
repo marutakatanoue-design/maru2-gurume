@@ -8,7 +8,9 @@
       "Bash(node ./node_modules/.bin/vite build)",
       "Bash(node ./node_modules/vite/bin/vite.js build)",
       "mcp__Claude_Preview__preview_start",
-      "Bash(npm install --save-dev gh-pages)"
+      "Bash(npm install --save-dev gh-pages)",
+      "Bash(npm run deploy)",
+      "Bash(npx gh-pages -d dist -r https://github.com/marutakatanoue-design/maru2-gurume.git)"
     ]
   }
 }
